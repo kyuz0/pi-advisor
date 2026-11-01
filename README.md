@@ -1,6 +1,6 @@
 # Pi Advisor
 
-Ask Codex or Gemini through Antigravity for advice from Pi. The local agent chooses the context to send, receives the reply unchanged and carries out the work. Conversations can be resumed; advisor usage is tracked separately.
+Ask Codex (OpenAI models) or Antigravity (Gemini models) for advice from Pi. The local agent chooses the context to send, receives the reply unchanged and carries out the work. Conversations can be resumed; advisor usage is tracked separately.
 
 ```sh
 pi install git:git@github.com:kyuz0/pi-advisor.git
