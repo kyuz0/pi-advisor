@@ -28,6 +28,7 @@
     "skills/",
     "examples/",
     "scripts/",
-    "README.md"
+    "README.md",
+    "docs/"
   ]
 }
