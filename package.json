@@ -1,0 +1,33 @@
+{
+  "name": "pi-advisor",
+  "private": true,
+  "type": "module",
+  "pi": {
+    "extensions": [
+      "./extensions/advisor.js"
+    ],
+    "skills": [
+      "./skills/advisor"
+    ]
+  },
+  "version": "0.4.0",
+  "description": "Codex and Antigravity consultations for Pi with resumable conversations and separate usage accounting",
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kyuz0/pi-advisor.git"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs"
+  },
+  "files": [
+    "extensions/",
+    "lib/",
+    "skills/",
+    "examples/",
+    "scripts/",
+    "README.md"
+  ]
+}
