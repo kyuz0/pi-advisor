@@ -55,7 +55,7 @@ test('preflight oversized packets and incompatible providers never launch a call
  const s=await setup();try{
   await assert.rejects(s.service.ask(s.context,{mode:'consult',context:'x'.repeat(50000),question:'x'}),/limit/);
   assert.equal((await s.service.state(s.context)).runs.length,0);
-  assert.throws(()=>validateConfig({provider:'claude'}),/not installed/);
+  assert.throws(()=>validateConfig({provider:'unsupported'}),/not installed/);
  }finally{await s.close();}
 });
 test('concurrent operations cannot bypass budgets or resume twice',async()=>{

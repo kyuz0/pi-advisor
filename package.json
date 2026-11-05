@@ -11,7 +11,7 @@
     ]
   },
   "version": "0.4.0",
-  "description": "Codex and Antigravity consultations for Pi with resumable conversations and separate usage accounting",
+  "description": "Codex, Antigravity and Claude consultations for Pi with resumable conversations and separate usage accounting",
   "engines": {
     "node": ">=22.19.0"
   },

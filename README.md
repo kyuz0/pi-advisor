@@ -1,6 +1,6 @@
 # Pi Advisor
 
-Ask Codex (OpenAI models) or Antigravity (Gemini models) for advice from Pi.
+Ask Codex (OpenAI models), Antigravity (Gemini models) or Claude for advice from Pi.
 
 The local agent sends relevant context, gets a second opinion and carries out the work. It can continue an advisor conversation and track its usage separately.
 
